@@ -1,9 +1,20 @@
 # End-to-end ML Model Creation [![gcash donation][1]][2] [![paypal donation][3]][4]
 
-[![license][5]][6] [![python version][7]][8] [![pywebio version][9]][10] [![scikit version][11]][12] [![build][13]][14] 
+[![python version][7]][8] [![scikit version][11]][12] [![build][13]][14] 
  
 This repository is a collection of notebooks that analyzes thousand datasets on heart-disease in order to try and predict 
 if a user has heart disease. The dataset was downloaded from [Kaggle](https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset).
+
+## Problem Definition
+_What problem are we trying to solve?_
+
+This data set dates from 1988 and consists of four databases: Cleveland, Hungary, Switzerland, and Long Beach V. It contains 76 attributes, including the predicted attribute, but all published experiments refer to using a subset of 14 of them. The "target" field refers to the presence of heart disease in the patient. It is integer valued 0 = no disease and 1 = disease.
+
+The objective of this model creation is to classify if our incoming patients have heart disease based on the same set of tests.
+
+* __Type of Machine Learning__: _Supervised Learning_
+* __Type of Learning__: _Classification_
+
 
 [1]: https://img.shields.io/badge/donate-gcash-green
 [2]: https://drive.google.com/file/d/1JeMx5_S7VBBT-3xO7mV9YOMfESeV3eKa/view
